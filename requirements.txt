@@ -1,0 +1,15 @@
+pip
+flake8
+black
+isort
+numpy
+pandas
+matplotlib
+ipykernel
+streamlit
+Pillow
+torch
+torchvision
+facenet-pytorch
+#torchaudio
+# geopy
