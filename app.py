@@ -62,14 +62,14 @@ def main():
 
     col1, col2, col3, col4 = st.columns(4)
 
-    with col1:
+    with col2:
         st.write("")
         if (image_file1 is not None) and (image_file2 is not None):
             button = st.button("Calc Similarity")
         else:
             button = st.button("Calc Similarity", disabled=True)
 
-    with col2:
+    with col3:
         st.write("")
         if button:
             with st.spinner("Calculating ..."):
@@ -108,14 +108,6 @@ def main():
         st.markdown("**コサイン類似度:**")
         st.markdown("> 2つのベクトルが「どのくらい似ているか」という類似性を表す尺度で、具体的には2つのベクトルがなす角のコサイン値のこと。1なら「似ている」を、-1なら「似ていない」を意味する。")
         st.markdown("https://atmarkit.itmedia.co.jp/ait/articles/2112/08/news020.html")
-
-        #         >
-        #
-        #
-        #
-        #
-
-        # """
 
 
 if __name__ == "__main__":
