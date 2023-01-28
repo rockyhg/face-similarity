@@ -1,15 +1,15 @@
-pip
-flake8
-black
-isort
+# pip
+# flake8
+# black
+# isort
 numpy
-pandas
-matplotlib
-ipykernel
+# pandas
+# matplotlib
+# ipykernel
 streamlit
 Pillow
-torch
-torchvision
+# torch
+# torchvision
 facenet-pytorch
-#torchaudio
+# torchaudio
 # geopy
